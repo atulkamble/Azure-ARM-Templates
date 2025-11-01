@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sqlServerName": {
+      "value": "mysqlserver-unique123"
+    },
+    "sqlDatabaseName": {
+      "value": "myDatabase"
+    },
+    "administratorLogin": {
+      "value": "sqladmin"
+    },
+    "administratorLoginPassword": {
+      "value": "REPLACE_WITH_SECURE_PASSWORD"
+    },
+    "databaseSku": {
+      "value": "Basic"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+# .gitignore for Azure ARM Templates
+
+# Azure deployment outputs
+*.log
+deployment-outputs/
+
+# Terraform state files (if used alongside ARM)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Local parameters with sensitive data
+*.local.json
+*-local.json
+secrets*.json
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Node modules (if using tools like ARM-TTK)
+node_modules/
+package-lock.json
+
+# Python (if using Python deployment scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Azure CLI cache
+.azure/
+
+# PowerShell modules
+PSGalleryModules/
+
+# Test results
+test-results/
+coverage/
+
+# Build outputs
+dist/
+build/
+*.zip
+*.tar.gz
+
+# IDE specific
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+
+# Documentation build
+_site/
+.jekyll-cache/
+
+# Environment files (if used)
+.env
+.env.local
+.env.*.local
