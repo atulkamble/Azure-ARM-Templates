@@ -12,7 +12,7 @@
       "value": "sshPublicKey"
     },
     "adminPasswordOrKey": {
-      "value": "REPLACE_WITH_SSH_PUBLIC_KEY"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsxaU8OSgC8a+B9S1fBERigXqS/II1Qq3uUCdL4s1+A4SBw9uj6EAfvPtacey8I8Qd4+mMEmv5fFs+tmXi8LAmOfw3JoeNfMQL6RwUCkZxPXLiOeP+um9++45OIgNJwY3LTQ2C05qJiWjbMwDUKYpaUkMbThQnH6QlglRZ63JbRVaHD82Iv9vNA9wBuY4fvFR5UTjZnVxg6yXuUMWOO0fHfdGdtsxiSO1PAD2PePvKfMPqBQQzFdrPr721EclMmwtRrEbxwjcz0GVw7J4KvOF9oFpdtIM73e6IY7GtNf2Fcp+lWvZeRQb/FNHy3O8bHO19NEoSMt0ffnKmsJwWI06nGlr7CCvtVWGvoOYPOlYAOWeWgUL39eGI8MaQFdvpMZjAlwLQXb4481cNRulQLR5bg8amrngAalN57Fl5LjIi5CZv2ZpVYIrktXCCTWywl6b3KLYExkd6y3ekN+EBo0s7369i8u+yTAn0bra8Zz/AIi5DcaRDUwdy+TmcSZmsYqudGi5EwKKLbWTOG60EKSh3RgF71Rn7jfIIRmgaVLh5MQ7MYUtdwsx+x6Nmi2X70RiDgQCcHf91+jGRSg2QqlX81QerWAjuW7wmHhdw/CeFPTYrbQVZKKU0quzA9vI6X5wjLY1Vb4jWmybyUaGQoFhHh/GdeoFwKv5vuMk+s4uYZQ== azure-linux-vm"
     },
     "vmSize": {
       "value": "Standard_B2s"

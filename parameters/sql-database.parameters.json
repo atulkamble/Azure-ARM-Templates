@@ -12,10 +12,13 @@
       "value": "sqladmin"
     },
     "administratorLoginPassword": {
-      "value": "REPLACE_WITH_SECURE_PASSWORD"
+      "value": "P@ssw0rd!2024Secure"
     },
     "databaseSku": {
       "value": "Basic"
+    },
+    "location": {
+      "value": "westus2"
     }
   }
 }
